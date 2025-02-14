@@ -10,11 +10,16 @@
     border-radius: 10px;
 }
 
-*{
+* {
+    /* Usuń user-select: none; */
+}
+
+.no-select {
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
+
 
 p{
     font-family: "Poppins", sans-serif;
@@ -74,8 +79,3 @@ input:focus{
     outline: none;
 }
 
-html, body {
-    height: 100%;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch; /* Płynniejsze przewijanie na mobilnych */
-}
