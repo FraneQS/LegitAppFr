@@ -15,17 +15,7 @@ html {
 * {
     touch-action: pan-y;
 }
-::-webkit-scrollbar {
-    display: none;
-}
 
-::-webkit-scrollbar-track {
-    display: none;
-}
-
-::-webkit-scrollbar-thumb {
-    display: none;
-}
 ::backdrop {
     background-color: #f5f6fb;
 }
