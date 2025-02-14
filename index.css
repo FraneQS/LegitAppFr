@@ -16,6 +16,12 @@ html, body {
     border-radius: 10px;
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;  /* Zablokowanie przewijania w poziomie */
+  overflow-y: scroll;  /* Umożliwienie przewijania w pionie */
+}
 
 p{
     font-family: "Poppins", sans-serif;
