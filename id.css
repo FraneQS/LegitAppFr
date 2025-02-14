@@ -6,7 +6,9 @@ body, html {
   overflow-x: hidden;  /* Zablokowanie przewijania w poziomie */
   overflow-y: scroll;  /* Umożliwienie przewijania w pionie */
 }
-
+body {
+    position: relative;
+}
 html {
     -webkit-overflow-scrolling: touch;
 }
