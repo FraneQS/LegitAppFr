@@ -73,3 +73,9 @@ body{
 input:focus{
     outline: none;
 }
+
+html, body {
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* Płynniejsze przewijanie na mobilnych */
+}
