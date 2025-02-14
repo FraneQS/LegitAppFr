@@ -10,7 +10,9 @@ body, html {
 html {
     -webkit-overflow-scrolling: touch;
 }
-
+* {
+    touch-action: pan-y;
+}
 ::-webkit-scrollbar {
     display: none;
 }
